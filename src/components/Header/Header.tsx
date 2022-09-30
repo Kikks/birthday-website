@@ -1,4 +1,4 @@
-import styles from "./Header.module.scss";
+import styles from "./Header.module.css";
 
 import { useEffect, useState } from "react";
 import Carousel from "re-carousel";
