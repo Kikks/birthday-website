@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply w-screen overflow-x-hidden bg-[#fafafa] font-renade;
+
+	background-color: #fafafa;
+	background-image: radial-gradient(#444df746 0.5px, #fafafa 0.5px);
+	background-size: 10px 10px;
+}
+
+.container {
+	@apply max-w-[1200px];
+}
+
+.undraggable {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
