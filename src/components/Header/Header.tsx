@@ -33,7 +33,7 @@ const Header = () => {
 						auto
 						loop
 						axis='y'
-						interval={10000}
+						interval={7000}
 						duration={2000}
 						widgets={[
 							({ index }) => (
